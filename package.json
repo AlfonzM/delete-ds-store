@@ -1,0 +1,20 @@
+{
+  "name": "delete-ds-store",
+  "version": "0.1.0",
+  "description": "Removes all .DS_Store in the current directory recursively",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "AlfonzM/delete-ds-store",
+  "keywords": [ "git", "ds_store", "gitignore", "ds store"],
+  "license": "MIT",
+  "bin": {
+    "delete-ds-store": "index.js"
+  },
+  "author": "AlfonzM",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.7.4"
+  }
+}
